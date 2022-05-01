@@ -27,5 +27,9 @@ public class LanturnLight : MonoBehaviour
 
     void Update()
     {
+        if (lightCount == 2)
+        {
+
+        }
     }    
 }

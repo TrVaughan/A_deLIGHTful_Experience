@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: PostProcessing Profile
+  m_Name: Projectile Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 8793073926088463194}
---- !u!114 &8793073926088463194
+  - {fileID: 2102505467162182407}
+--- !u!114 &2102505467162182407
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,11 +30,11 @@ MonoBehaviour:
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 1
-    m_Value: 1.64
+    m_Value: 3.56
     min: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 1.19
+    m_Value: 2.77
     min: 0
   scatter:
     m_OverrideState: 0
