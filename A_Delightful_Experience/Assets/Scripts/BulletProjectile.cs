@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BulletProjectile : MonoBehaviour
 {
+    [SerializeField] private Transform vfxHitGreen;
+    [SerializeField] private Transform vfxHitRed;
+
     private Rigidbody bulletRigidbody;
 
     private void Awake()
@@ -19,6 +22,7 @@ public class BulletProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         Destroy(gameObject);
     }
 
