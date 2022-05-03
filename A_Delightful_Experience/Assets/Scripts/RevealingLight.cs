@@ -6,6 +6,6 @@ public class RevealingLight : MonoBehaviour
 {
     void Start()
     {
-
+        
     }
 }
