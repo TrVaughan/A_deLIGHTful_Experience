@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 5364090297090241878}
   - component: {fileID: 5335180654154953192}
   - component: {fileID: 5344575813581194690}
+  - component: {fileID: 620074066127928616}
   m_Layer: 0
   m_Name: Glass2
   m_TagString: Untagged
@@ -162,6 +163,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &620074066127928616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366662666574142870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 56349237cb6b28e478c0ba0b79096cdf, type: 2}
 --- !u!1 &5366875218795250138
 GameObject:
   m_ObjectHideFlags: 0
