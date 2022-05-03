@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5376901262877686427}
   - component: {fileID: 7167325276668183250}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: LampLight
   m_TagString: Reveal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,6 +160,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23559649772534480, guid: 94f10da449387134eb5a2276906ccdfd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2dd3d6d3c2931e449840acbcd8d1f153, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94f10da449387134eb5a2276906ccdfd, type: 3}
 --- !u!4 &606008850429406337 stripped
