@@ -6,6 +6,7 @@ public class LanturnLight : MonoBehaviour
 {
     private Light lanturnLight;
     private int lightCount;
+    public Light revealingLight;
 
     // Start is called before the first frame update
     void Start()
@@ -13,6 +14,7 @@ public class LanturnLight : MonoBehaviour
         lanturnLight = GetComponent<Light>();
         lanturnLight.enabled = false;
         lightCount = 0;
+        revealingLight.enabled = false;
     }
 
     void OnTriggerEnter(Collider other)
@@ -22,14 +24,17 @@ public class LanturnLight : MonoBehaviour
             lanturnLight.enabled = true;
             lightCount = lightCount +1;
         }
+
+        if (lightCount == 1)
+        {
+            revealingLight.enabled = true;
+        }
+
         
     }
 
     void Update()
     {
-        if (lightCount == 2)
-        {
 
-        }
     }    
 }

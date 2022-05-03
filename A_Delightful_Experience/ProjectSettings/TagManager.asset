@@ -8,6 +8,7 @@ TagManager:
   - Projectile
   - Lantern
   - Glow
+  - Reveal
   layers:
   - Default
   - TransparentFX
